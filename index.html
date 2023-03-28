@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+            <div class="img1"></div>
+            <div class="img2"></div>
+        </div>
+        <div class="quiz-container">
+            <div class="quiz">
+                <p class="ques-number">QUESTION <span id="number">1</span> of 10</p>
+                <div class="ques">Question</div>
+                <div class="options">
+                    <div class="opt">
+                        <input type="radio" name="answer" id="1">
+                        <label for="1" id="opt1">Option1</label>
+                    </div>
+                    <div class="opt">
+                        <input type="radio" name="answer" id="2">
+                        <label for="2" id="opt2">Option2</label>
+                    </div>
+                    <div class="opt">
+                        <input type="radio" name="answer" id="3">
+                        <label for="3" id="opt3">Option3</label>
+                    </div>
+                    <div class="opt">
+                        <input type="radio" name="answer" id="4">
+                        <label for="4" id="opt4">Option4</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="btn">NEXT</button>
+    <p class="score-container">Score: <span class="score">0</span></p>
+    <p class="time">00:30</p>
+    <script src="script.js"></script>
+</body>
+</html>
